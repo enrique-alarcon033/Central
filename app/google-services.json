@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "512751611377",
+    "project_id": "central-a864f",
+    "storage_bucket": "central-a864f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512751611377:android:58b8e562fc8ba4ace9e850",
+        "android_client_info": {
+          "package_name": "com.yonusa.central"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512751611377-1f2rvaotgshou6ncqaepjt3u8pirgqo4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsZUQJCH3tKXL8E4TCBdV0Qq8gdfbLWk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512751611377-1f2rvaotgshou6ncqaepjt3u8pirgqo4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

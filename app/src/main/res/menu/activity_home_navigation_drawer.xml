@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_agregar"
+            android:icon="@drawable/ic_add_user"
+            android:title="Agregar Usuario" />
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/ic_lista"
+            android:title="Lista de invitados" />
+    </group>
+
+
+    <item android:title="configuración">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_notificaciones"
+                    android:icon="@drawable/ic_notificacion"
+                    android:title="notificaciones" />
+
+                <item
+                    android:id="@+id/nav_permisos"
+                    android:icon="@drawable/ic_admin"
+                    android:title="permisos" />
+            </group>
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/nac_cerrar"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cerrar"
+            android:icon="@drawable/ic_salir"
+            android:title="Cerrar Sesión" />
+    </group>
+
+
+</menu>
